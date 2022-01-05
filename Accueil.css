@@ -1,9 +1,8 @@
 body{
   margin:0px;
-  font-family: "Roboto";
-  display: flex;
+  font-family: "roboto", sans-serif;
+  display:flex;
   justify-content: center;
-  
 } 
 main{
   margin:0px;
@@ -15,9 +14,8 @@ main{
 }
 
 #container{
-
   max-width: 1400px;
- 
+width:100%;
 }
 
 
@@ -279,7 +277,6 @@ align-items: center;
 }
 
 footer{
-padding:1rem;
 width:100%;
 }
 
@@ -288,12 +285,11 @@ width:100%;
 background-color: #333333;
 margin: 0;
 width:100%;
-padding:1rem;
+padding: 20px;
 }
 
 footer a{
 color: white;
-padding: 1rem;
 text-decoration: none;
 }
 

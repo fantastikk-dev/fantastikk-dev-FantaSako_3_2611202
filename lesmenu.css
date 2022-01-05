@@ -2,6 +2,9 @@
 body{
     margin:0;
     font-family: "roboto", sans-serif;
+    display:flex;
+    justify-content: center;
+   
    
   } 
   main{
@@ -15,7 +18,8 @@ body{
   }
   
   #container{
-    max-width: 1400px;
+    max-width: 1400px; 
+    width:100%;
   }
   
    h1{
@@ -120,7 +124,7 @@ width: 0px;
   text-overflow: ellipsis;
   font-size: 1em;
   }
-}
+
 .Block2page{
  width:100%;
 }
@@ -153,7 +157,9 @@ p{
     background-color: #333333;
     margin: 0;
     width:100%;
-            }
+    padding: 20px;
+  }
+       
            
      footer a{
      color: white;
@@ -259,7 +265,7 @@ padding-right:3rem;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-}
+
 .card_plat:hover .price{
   animation: decalage_prix 0.3s ease-out 1 forwards;
 }
